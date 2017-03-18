@@ -21,14 +21,7 @@ Then run:
 $ ionic serve
 ```
 
-Wp效果  
-![wp](./src/assets/img/ionic2-city-index-select-wp.gif)  
+Wp效果 / Android效果 / iOS效果  
+![wp](./src/assets/img/ionic2-city-index-select-wp.gif)![md](./src/assets/img/ionic2-city-index-select-md.gif)![ios](./src/assets/img/ionic2-city-index-select-ios.gif)  
 
-Android效果  
-![md](./src/assets/img/ionic2-city-index-select-md.gif)  
-
-iOS效果  
-![ios](./src/assets/img/ionic2-city-index-select-ios.gif)  
-
-
-======如果此项目对您有所帮助，请点下面橙色的按钮，谢谢！![ios](./src/assets/img/smile.png)  =======
+如果此项目对您有所帮助，请点下面橙色的按钮，谢谢![smile](./src/assets/img/smile.png)
