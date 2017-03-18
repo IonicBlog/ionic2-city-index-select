@@ -29,3 +29,6 @@ Android效果
 
 iOS效果  
 ![ios](./src/assets/img/ionic2-city-index-select-ios.gif)  
+
+
+======如果此项目对您有所帮助，请点下面橙色的按钮，谢谢！![ios](./src/assets/img/smile.png)  =======
