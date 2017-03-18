@@ -20,3 +20,12 @@ Then run:
 ```bash
 $ ionic serve
 ```
+
+Wp效果  
+![wp](./src/assets/img/ionic2-city-index-select-wp.gif)  
+
+Android效果  
+![md](./src/assets/img/ionic2-city-index-select-md.gif)  
+
+iOS效果  
+![ios](./src/assets/img/ionic2-city-index-select-ios.gif)  
