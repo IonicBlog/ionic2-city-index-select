@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>IONIC2城市选择</ion-title>
+  </ion-navbar>
+  <ion-searchbar placeholder="请输入城市拼音或汉字" (ionInput)="getItems($event)"></ion-searchbar>
+</ion-header>
+
+<ion-content>
+  <div id="indexs-bar" #IndexedMenu>
+    <div class="index-bar" *ngFor="let item of indexes;let i = index">{{item}}</div>
+  </div>
+  <ion-list>
+
+    <ion-item-sliding *ngFor="let c of filterCities">
+      <ion-item (click)="citySelect(c)">{{c.name}}</ion-item>
+    </ion-item-sliding>
+
+    <ion-item-group *ngFor="let item of cities" #cityGroup>
+      <!--sticky-->
+      <ion-item-divider>
+        <ion-label>{{item.index}}</ion-label>
+      </ion-item-divider>
+
+      <!--<ion-grid>
+          <ion-row wrap>
+            <ion-col *ngFor="let c of item.cities" item-center text-center width-33>{{c.name}}</ion-col>
+          </ion-row>
+        </ion-grid>-->
+
+      <!--<ion-item-sliding >-->
+      <ion-item *ngFor="let c of item.cities" (click)="citySelect(c)">{{c.name}}</ion-item>
+      <!--</ion-item-sliding>-->
+    </ion-item-group>
+  </ion-list>
+  <div id="indexs-title">
+  </div>
+</ion-content>
